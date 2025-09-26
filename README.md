@@ -18,4 +18,4 @@ This project is my first hands-on experience in machine learning. It demonstrate
 ## Installation
 1. Clone the repository:  
    ```bash
-   git clone <repository_url>
+   https://github.com/Sanjay1712KSK/Drug-MRP-Price-Prediction
