@@ -1,0 +1,9 @@
+Container Creation Process
+docker run --name pmdb -e POSTGRES_PASSWORD=sanjay -e POSTGRES_DB=phsd -e TZ=Asia/Kolkata -p 5433:5432 -d postgres
+docker exec -it pmdb psql -U postgres -d phsd
+python venv
+ python -m venv pd
+.\pd\Scripts\Activate
+to run the db api:
+uvicorn main:app --reload
+To access the api: http://localhost:8000/products
